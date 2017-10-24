@@ -34,8 +34,7 @@
         }
 
         function RequestMap() {
-                    var i = (LoadMap.counter % 2) + 1 ; //added to loop in data every click
-
+                    var i = LoadMap.counter;
                     $.ajax({
                         url: "/Home/GetEvent",
                         dataType: "json",

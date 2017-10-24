@@ -21,10 +21,14 @@ namespace ClickMap.Controllers
         [HttpGet]
         public ActionResult GetEvent(int Id)
         {
+            int tempId= Id;
             XMLReader xmlReader = new XMLReader();
             var data = xmlReader.ReturnListOfEvents();
+  
+            tempId = (Id % data.Count()) + 1; 
+
             var result = from e in data
-                         where e.Id == Id
+                         where e.Id == tempId
                          select e;
             var json = new JavaScriptSerializer().Serialize(result);
             return Json(new { success = true, message = json, }, JsonRequestBehavior.AllowGet);
