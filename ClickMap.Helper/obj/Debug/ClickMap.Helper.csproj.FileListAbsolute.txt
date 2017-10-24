@@ -1,0 +1,5 @@
+C:\Users\rpayawal\documents\visual studio 2015\Projects\ClickMap\ClickMap.Helper\bin\Debug\ClickMap.Helper.dll
+C:\Users\rpayawal\documents\visual studio 2015\Projects\ClickMap\ClickMap.Helper\bin\Debug\ClickMap.Helper.pdb
+C:\Users\rpayawal\documents\visual studio 2015\Projects\ClickMap\ClickMap.Helper\obj\Debug\ClickMap.Helper.dll
+C:\Users\rpayawal\documents\visual studio 2015\Projects\ClickMap\ClickMap.Helper\obj\Debug\ClickMap.Helper.pdb
+C:\Users\rpayawal\documents\visual studio 2015\Projects\ClickMap\ClickMap.Helper\obj\Debug\ClickMap.Helper.csprojResolveAssemblyReference.cache
